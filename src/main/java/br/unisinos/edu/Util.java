@@ -24,6 +24,7 @@ public final class Util {
                 .yAxisTitle(eixoY)
                 .build();
         chart.getStyler().setLegendPosition(Styler.LegendPosition.InsideNW);
+        chart.getStyler().setYAxisDecimalPattern("#,##0");
         return chart;
     }
 
